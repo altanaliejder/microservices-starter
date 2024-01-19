@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: api-gateway
+
+logging:
+  level: info
+  org:
+    springframework:
+      cloud:
+        gateway: TRACE
+
+
